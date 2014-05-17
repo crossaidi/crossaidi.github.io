@@ -1,42 +1,168 @@
-/* line 1, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
-html, body {
-  height: 100%; }
+/* line 17, /Users/local/.rvm/gems/ruby-2.1.1@deecross/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
 
-/* line 4, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
-.s {
-  height: 100%; }
-  /* line 6, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
-  .s:not(:last-child) {
-    margin-bottom: 25px; }
+/* line 22, /Users/local/.rvm/gems/ruby-2.1.1@deecross/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
 
-/* line 9, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+/* line 24, /Users/local/.rvm/gems/ruby-2.1.1@deecross/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, /Users/local/.rvm/gems/ruby-2.1.1@deecross/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, /Users/local/.rvm/gems/ruby-2.1.1@deecross/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, /Users/local/.rvm/gems/ruby-2.1.1@deecross/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, /Users/local/.rvm/gems/ruby-2.1.1@deecross/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, /Users/local/.rvm/gems/ruby-2.1.1@deecross/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, /Users/local/.rvm/gems/ruby-2.1.1@deecross/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+@font-face {
+  font-family: "Nexa Bold";
+  src: url("/fonts/NexaBold.otf") format('opentype'); }
+
+@font-face {
+  font-family: "Nexa Light";
+  src: url("/fonts/NexaLight.otf") format('opentype'); }
+
+/* line 7, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+a {
+  text-decoration: none; }
+  /* line 9, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+  a:visited {
+    color: inherit; }
+
+/* line 12, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+.section {
+  height: 520px; }
+  /* line 14, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+  .section:not(:last-child) {
+    margin-bottom: 40px; }
+
+/* line 17, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
 .container {
-  margin-top: 10%;
-  height: 90%; }
+  margin-top: 85px; }
 
-/* line 13, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
-.active {
-  color: white; }
-
-/* line 16, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+/* line 20, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
 .submenu {
   top: 0;
   width: 100%;
-  height: 10%;
+  height: 60px;
   position: fixed;
-  background: black;
-  z-index: 15; }
+  text-align: center;
+  color: white;
+  background: black; }
 
-/* line 24, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
-.s1 {
+/* line 29, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+.inner {
+  margin-top: 20px; }
+  /* line 31, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+  .inner .active {
+    color: #aa161b; }
+    /* line 33, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+    .inner .active:hover {
+      color: #aa161b;
+      text-shadow: none; }
+  /* line 36, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+  .inner li {
+    display: inline-block;
+    margin: 0 2%; }
+  /* line 39, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+  .inner a {
+    font-family: "Nexa Bold";
+    color: white;
+    transition: color 0.2s;
+    text-transform: uppercase; }
+    /* line 44, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+    .inner a:hover {
+      color: white;
+      text-shadow: -3px 0 3px #aa161b, 0 3px 3px #aa161b, 3px 0 3px #aa161b, 0 -3px 3px #aa161b; }
+
+/* line 48, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+.langs {
+  margin: -15px 10px 0 0;
+  float: right;
+  display: inline-block;
+  font-family: "Nexa Light"; }
+  /* line 54, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+  .langs a:hover {
+    color: #aa161b; }
+
+/* line 58, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+.about {
   background: white; }
 
-/* line 27, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
-.s2 {
+/* line 61, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+.skills {
   background: #aa161b;
-  box-shadow: 0 -15px 0px #a00c11, 0 -25px 0px #960207; }
+  box-shadow: 0 -15px 0px #a00c11, 0 -25px 0px #960207, 0 -40px 0px black; }
 
-/* line 31, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
-.s3 {
+/* line 65, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+.contacts {
   background: #2f2f2f;
-  box-shadow: 0 -15px 0px #2a2a2a, 0 -25px 0px #252525; }
+  box-shadow: 0 -15px 0px #2a2a2a, 0 -25px 0px #252525, 0 -40px 0px black; }
+
+/* line 69, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+.title-box {
+  margin-top: 50px;
+  vertical-align: top;
+  display: inline-block; }
+  /* line 73, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+  .title-box h1 {
+    padding-bottom: 10px;
+    font-size: 3em;
+    font-family: "Nexa Bold"; }
+  /* line 77, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+  .title-box h2 {
+    font-size: 1.5em;
+    font-family: "Nexa Light";
+    color: #aa161b; }
+
+/* line 82, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+.logo {
+  padding: 55px 0 0 50px;
+  display: inline-block; }
+
+/* line 86, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+.activity {
+  width: 500px;
+  height: 250px;
+  margin: -25% 12% 0 0;
+  float: right; }
