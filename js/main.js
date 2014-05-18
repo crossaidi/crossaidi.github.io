@@ -28,7 +28,7 @@ If you like Smint, or have suggestions on how it could be improved, send me a tw
 		//Set the variables needed
 		var optionLocs = new Array();
 		var lastScrollTop = 0;
-		var shadowsHeight = 40;
+		var shadowsHeight = 75;
 		var menuHeight = $(".smint").height();
 
 		return $('.smint a').each( function(index) {
@@ -39,6 +39,7 @@ If you like Smint, or have suggestions on how it could be improved, send me a tw
 
 			//Fill the menu
 			var id = $(this).attr("id");
+			debugger
 			optionLocs.push(Array($("section."+id).position().top-menuHeight, $("section."+id).height()+$("section."+id).position().top, id));
 
 			///////////////////////////////////
@@ -158,7 +159,7 @@ if (!(window.console && console.log)) {
 
 
 $(document).ready( function() {
-    $('.submenu').smint({
+    $('.inner').smint({
     	'scrollSpeed' : 1000
     });
 });
