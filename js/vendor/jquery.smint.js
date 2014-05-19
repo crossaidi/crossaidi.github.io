@@ -39,7 +39,7 @@ If you like Smint, or have suggestions on how it could be improved, send me a tw
 
 			//Fill the menu
 			var id = $(this).attr("id");
-			debugger
+			// debugger
 			optionLocs.push(Array($("section."+id).position().top-menuHeight, $("section."+id).height()+$("section."+id).position().top, id));
 
 			///////////////////////////////////
