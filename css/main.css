@@ -90,11 +90,11 @@ a {
   @media only screen and (min-width: 768px) {
     /* line 36, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
     .section {
-      height: 700px; } }
+      height: 650px; } }
   @media only screen and (min-width: 1224px) {
     /* line 36, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
     .section {
-      height: 700px; } }
+      height: 650px; } }
   @media only screen and (min-width: 1824px) {
     /* line 36, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
     .section {
@@ -119,46 +119,46 @@ a {
   color: white;
   background: black; }
 
-/* line 64, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+/* line 62, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
 .inner {
   margin-top: 20px; }
-  /* line 66, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+  /* line 64, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
   .inner .active {
     color: #aa161b; }
-    /* line 68, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+    /* line 66, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
     .inner .active:hover {
       color: #aa161b;
       text-shadow: none; }
-  /* line 71, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+  /* line 69, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
   .inner li {
     display: inline-block;
     margin: 0 2%; }
-  /* line 74, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+  /* line 72, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
   .inner a {
     font-family: "Nexa Bold", Helvetica;
     color: white;
     transition: color 0.2s;
     text-transform: uppercase; }
-    /* line 79, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+    /* line 77, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
     .inner a:hover {
       color: white;
       text-shadow: -3px 0 3px #aa161b, 0 3px 3px #aa161b, 3px 0 3px #aa161b, 0 -3px 3px #aa161b; }
 
-/* line 83, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+/* line 81, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
 .langs {
   margin: -20px 10px 0 0;
   float: right;
   display: inline-block;
   font-family: "Nexa Light", Helvetica; }
   @media only screen and (max-width: 400px) {
-    /* line 83, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+    /* line 81, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
     .langs {
       margin: 0 10px 0 0; } }
-  /* line 91, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+  /* line 89, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
   .langs a:hover {
     color: #aa161b; }
 
-/* line 94, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+/* line 92, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
 .resume {
   margin-top: 20px;
   padding: 10px;
@@ -168,79 +168,79 @@ a {
   color: black;
   border: 2px solid black; }
   @media only screen and (max-width: 622px) {
-    /* line 94, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+    /* line 92, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
     .resume {
       margin: 20px 0 0 0; } }
-  /* line 105, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+  /* line 102, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
   .resume:hover {
     background: black;
     color: white; }
 
-/* line 109, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+/* line 106, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
 .about {
   background: white; }
   @media only screen and (max-width: 1043px) {
-    /* line 109, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+    /* line 106, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
     .about {
       text-align: center;
       height: 745px; } }
 
-/* line 116, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+/* line 113, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
 .skills {
   background: #aa161b;
   box-shadow: 0 -15px 0px #a00c11, 0 -25px 0px #960207, 0 -40px 0px black;
   color: white; }
-  /* line 120, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+  /* line 117, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
   .skills h2 {
     font-size: 2.25em;
     text-align: center;
     padding: 30px; }
 
-/* line 123, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+/* line 120, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
 .contacts {
   padding-bottom: 25px;
   background: #2f2f2f;
   box-shadow: 0 -15px 0px #2a2a2a, 0 -25px 0px #252525, 0 -40px 0px black;
   color: #dddddd;
   text-align: center; }
-  /* line 130, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+  /* line 126, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
   .contacts h2 {
     font-size: 2.25em;
     text-align: center;
     padding: 30px; }
-  /* line 133, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+  /* line 129, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
   .contacts li:not(:last-child) {
     margin-bottom: 15px; }
 
-/* line 136, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+/* line 132, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
 .title-box {
   margin-top: 50px;
   vertical-align: top;
   display: inline-block; }
-  /* line 140, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+  /* line 136, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
   .title-box h1 {
     padding-bottom: 10px;
     font-size: 2.75em;
     font-family: "Nexa Bold", Helvetica; }
     @media only screen and (max-width: 622px) {
-      /* line 140, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+      /* line 136, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
       .title-box h1 {
         font-size: 2.65em; } }
-  /* line 146, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+  /* line 142, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
   .title-box h2 {
     color: #aa161b; }
 
-/* line 149, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+/* line 145, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
 .logo {
   padding: 55px 0 0 50px;
   display: inline-block; }
   @media only screen and (max-width: 622px) {
-    /* line 149, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+    /* line 145, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
     .logo {
       width: 320px;
       padding: 55px 0 0 0; } }
 
-/* line 157, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+/* line 152, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
 .activity {
   top: 300px;
   left: 500px;
@@ -248,11 +248,11 @@ a {
   height: 250px;
   position: absolute; }
   @media only screen and (max-width: 1043px) {
-    /* line 157, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+    /* line 152, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
     .activity {
       display: none; } }
 
-/* line 166, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+/* line 161, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
 .social {
   display: inline-block;
   margin-bottom: 25px;
@@ -261,21 +261,21 @@ a {
   width: 250px;
   padding-left: 100px; }
   @media only screen and (max-width: 400px) {
-    /* line 166, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+    /* line 161, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
     .social {
       padding-left: 0; } }
-  /* line 175, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+  /* line 170, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
   .social:not(:last-child) {
     box-shadow: rgba(255, 255, 255, 0.07) 1px 0 0;
     border-right: 1px solid #121212; }
     @media only screen and (max-width: 400px) {
-      /* line 175, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+      /* line 170, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
       .social:not(:last-child) {
         padding-bottom: 25px;
         border-right: none;
         box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
         border-bottom: 1px solid #121212; } }
-  /* line 183, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+  /* line 178, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
   .social a {
     height: 25px;
     display: inline-block;
@@ -284,38 +284,38 @@ a {
     background-position: 0% 0%;
     background-size: 22px 22px;
     background-repeat: no-repeat; }
-    /* line 191, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+    /* line 186, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
     .social a:hover {
       text-decoration: underline; }
 
-/* line 194, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+/* line 189, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
 .github {
   background-image: url("/img/icons/github.png"); }
 
-/* line 197, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+/* line 192, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
 .twitter {
   background-image: url("/img/icons/twitter.png");
   background-size: 22px 20px !important; }
 
-/* line 201, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+/* line 196, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
 .vk {
   background-image: url("/img/icons/vk.png"); }
 
-/* line 204, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+/* line 199, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
 .facebook {
   background-image: url("/img/icons/facebook.png"); }
 
-/* line 207, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+/* line 202, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
 .location {
   background-image: url("/img/icons/location.png");
   background-size: 16px 22px !important; }
 
-/* line 211, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+/* line 206, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
 .mail {
   background-image: url("/img/icons/mail.png");
   background-size: 24px 20px !important; }
 
-/* line 215, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
+/* line 210, /Users/local/Documents/WebProjects/deecross/source/css/screen.css.sass */
 .phone {
   background-image: url("/img/icons/phone.png"); }
 /*
